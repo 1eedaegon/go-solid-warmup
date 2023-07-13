@@ -62,7 +62,7 @@ func (a *Alarm) OnFire() {
 	k.Produce()
 } 
 
-var main = &Mail{}
+var mail = &Mail{}
 var listner EventListner = &Alarm{}
 
 mail.Register(listner)
